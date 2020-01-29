@@ -1,6 +1,6 @@
 import java.lang.*;
-class HelloWorldApp{
+class HelloWorldApp{ //Class name declaration
     public static void main(String args[]){
-        System.out.println("Hello,World!");
+        System.out.println("Hello,World!"); //Display by line
     }
 }
