@@ -1,10 +1,13 @@
+/*
+Java code to find the logarithm of a number accoeding to the base
+*/
 import java.io.*; 
-import java.lang.Math; 
-import java.util.Scanner;
+import java.lang.Math;   //Import Math class
+import java.util.Scanner; //Import Scanner class
 
 class GFG 
 { 
-	static int maxGCD(int N, int K) 
+	static int maxGCD(int N, int K)  //Method maxGCD
 	{  
 		int minSum = (K * (K + 1)) / 2;  
 		if (N < minSum) 
@@ -32,10 +35,12 @@ class GFG
 	public static void main (String[] args) 
 	{
         int N,K;
-        Scanner s= new Scanner(System.in); 
-        N=s.nextInt();
+		Scanner s= new Scanner(System.in); 
+		System.out.println("Enter the value of N:");
+		N=s.nextInt();
+		System.out.println("Enter the value of base");
         K=s.nextInt();
-		System.out.println(maxGCD(N, K)); 
+		System.out.println("Output:"+ maxGCD(N, K)); 
 	} 
 } 
 
